@@ -4,7 +4,11 @@
 }
 
 .list{
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin: 20px; list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin: 20px;
+  list-style: none;
 }
 
 .container {
@@ -28,18 +32,28 @@ p.header {
   margin-top: 20px;
 }
 
-.item {
-  text-align: center; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #fff; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.item-container{
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-img{
-  max-width: 100%; height: auto; border-radius: 4px;
+img.item-img{
+  max-width:70%;
+  max-height: 100%;
+  border-radius: 4%;
 }
 
-h3.item{
-  font-size: 18px; margin: 12px 0 8px; color: #333;
+h3.item-title{
+  font-size: 18px;
+  margin: 12px 0 8px;
+  color: #333;
 }
 
-p.item{
-  font-size: 14px; color: #666;
+p.item-description{
+  font-size: 14px;
+  color: #666;
 }
